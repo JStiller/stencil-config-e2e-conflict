@@ -15,6 +15,7 @@ export const config: Config = {
     },
     {
       type: 'www',
+      baseUrl: '/subdirectory',
       serviceWorker: null, // disable service workers
     },
   ],
